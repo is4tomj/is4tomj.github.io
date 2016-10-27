@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts-rsses on is4tomj</title>
-    <link>http://is4tomj.com/posts/index.xml</link>
-    <description>Recent content in Posts-rsses on is4tomj</description>
+    <title>is4tomj</title>
+    <link>http://is4tomj.com/categories/transfer-cases/index.xml</link>
+    <description>Recent content on is4tomj</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Tom Johnson</copyright>
-    <lastBuildDate>Thu, 27 Oct 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://is4tomj.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://is4tomj.com/categories/transfer-cases/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Transfer representation for a case before the USPTO to a different agent or attorney</title>
@@ -44,27 +43,6 @@
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.uspto.gov/patent/forms/forms-patent-applications-filed-or-after-september-16-2012&#34;&gt;This is a list of forms that can be used to file or prosecute U.S. patent applications filed after September 16, 2012&lt;/a&gt;, which includes &lt;a href=&#34;http://www.uspto.gov/sites/default/files/documents/aia0081a.pdf&#34;&gt;Power of Attorney or Revocation of Power of Attorney With a New Power of Attorney and Change of Correspondence Address&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Register and use a New Customer Number with the USPTO</title>
-      <link>http://is4tomj.com/posts/customer-number/</link>
-      <pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://is4tomj.com/posts/customer-number/</guid>
-      <description>&lt;p&gt;I’m not going to go into why registering a customer number is important. I’m only going show the fastest way to create one and when to use it:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Go to Private Pair;&lt;/li&gt;
-&lt;li&gt;Search in the page for “PAIR Administration” and expand that region;&lt;/li&gt;
-&lt;li&gt;Select “Create New Customer Number” and “Continue”;&lt;/li&gt;
-&lt;li&gt;Fill out the form;&lt;/li&gt;
-&lt;li&gt;Select “Preview”; and&lt;/li&gt;
-&lt;li&gt;Select “Submit”.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Although the status will show “Submitted”, I was able to start using the new Customer Number right away. I was also able to edit my the Customer Number to add another attorney’s registration number.&lt;/p&gt;
 </description>
     </item>
     

@@ -6,82 +6,65 @@
     <description>Recent content on is4tomj</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Tom Johnson</copyright>
-    <lastBuildDate>Sat, 29 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Oct 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://is4tomj.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Just another sample post</title>
-      <link>http://is4tomj.com/posts/newest/</link>
-      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
+      <title>Transfer representation for a case before the USPTO to a different agent or attorney</title>
+      <link>http://is4tomj.com/posts/transfer-cases/</link>
+      <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://is4tomj.com/posts/newest/</guid>
+      <guid>http://is4tomj.com/posts/transfer-cases/</guid>
       <description>
 
-&lt;h2 id=&#34;first-heading&#34;&gt;First Heading&lt;/h2&gt;
+&lt;p&gt;How you transfer a case depends on whether the case is a pending application, an issued patent, or a PCT Application. Each of these cases is discussed below.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.&lt;/p&gt;
+&lt;h2 id=&#34;transferring-a-pending-application&#34;&gt;Transferring a Pending Application&lt;/h2&gt;
 
-&lt;h3 id=&#34;sub&#34;&gt;Sub&lt;/h3&gt;
+&lt;p&gt;For a pending U.S. Patent Application where the assignee-applicant was named as the applicant when the application was filed, use &lt;a href=&#34;https://www.uspto.gov/sites/default/files/forms/aia0082.pdf&#34;&gt;this form&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, perferendis saepe voluptatem a nesciunt architecto voluptas deleniti dolor tempora quasi quidem odit rem fugit magnam minima quam dolores vel id?&lt;/p&gt;
+&lt;p&gt;This form has Parts A, B, and C. Part C is only useful if there is not customer number, so I&amp;rsquo;m going to ignore Part C.&lt;/p&gt;
 
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Part A has fields that identify the application being transferred and includes application specific data, such as an Application Number and Confirmation Number. Accordingly, Part A is different for each patent application you are transferring.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, numquam ipsa ad! Quasi, deleniti quae sint consequatur error corporis dicta inventore alias soluta dignissimos? Molestias, quia ab deserunt repellat ut.&lt;/p&gt;
+&lt;p&gt;Part B identifies the assignee-applicant and requires the client&amp;rsquo;s signature. A client can sign Part B once, and a copy of Part B can be attached to a copy of Part A for each patent application.&lt;/p&gt;
+
+&lt;h2 id=&#34;transferring-an-issued-application&#34;&gt;Transferring an Issued Application&lt;/h2&gt;
+
+&lt;p&gt;For an issued U.S. Patent, use the following form: &lt;a href=&#34;http://www.uspto.gov/sites/default/files/documents/aia0081a.pdf&#34;&gt;Power of Attorney or Revocation of Power of Attorney With a New Power of Attorney and Change of Correspondence Address&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;transferring-a-pct-application&#34;&gt;Transferring a PCT Application&lt;/h2&gt;
+
+&lt;p&gt;(TODO: update after transferring a PCT case.)&lt;/p&gt;
+
+&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.uspto.gov/web/offices/pac/mpep/s402.html&#34;&gt;MPEP 402&lt;/a&gt; discusses Power of Attorney and naming a representative.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.uspto.gov/patent/forms/forms-patent-applications-filed-or-after-september-16-2012&#34;&gt;This is a list of forms that can be used to file or prosecute U.S. patent applications filed after September 16, 2012&lt;/a&gt;, which includes &lt;a href=&#34;http://www.uspto.gov/sites/default/files/documents/aia0081a.pdf&#34;&gt;Power of Attorney or Revocation of Power of Attorney With a New Power of Attorney and Change of Correspondence Address&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Second Post</title>
-      <link>http://is4tomj.com/posts/middle/</link>
-      <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
+      <title>Register and use a New Customer Number with the USPTO</title>
+      <link>http://is4tomj.com/posts/customer-number/</link>
+      <pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://is4tomj.com/posts/middle/</guid>
-      <description>
+      <guid>http://is4tomj.com/posts/customer-number/</guid>
+      <description>&lt;p&gt;I’m not going to go into why registering a customer number is important. I’m only going show the fastest way to create one and when to use it:&lt;/p&gt;
 
-&lt;h2 id=&#34;sample-post-1&#34;&gt;Sample Post 1&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to Private Pair;&lt;/li&gt;
+&lt;li&gt;Search in the page for “PAIR Administration” and expand that region;&lt;/li&gt;
+&lt;li&gt;Select “Create New Customer Number” and “Continue”;&lt;/li&gt;
+&lt;li&gt;Fill out the form;&lt;/li&gt;
+&lt;li&gt;Select “Preview”; and&lt;/li&gt;
+&lt;li&gt;Select “Submit”.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;h3 id=&#34;sub-heading&#34;&gt;Sub-heading&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, non, ratione, molestiae illo optio quia sequi id fuga natus nihil ad architecto dolor alias ex sunt iste aperiam eius itaque.&lt;/p&gt;
-
-&lt;h2 id=&#34;foo&#34;&gt;foo&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, neque, eveniet voluptate eos debitis illum qui nostrum eius maxime ratione assumenda suscipit impedit deserunt voluptatibus odio ducimus non. Ex, ratione.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>http://is4tomj.com/posts/oldest/</link>
-      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://is4tomj.com/posts/oldest/</guid>
-      <description>
-
-&lt;h2 id=&#34;sample-post-1&#34;&gt;Sample Post 1&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;h3 id=&#34;sub-heading&#34;&gt;Sub-heading&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, non, ratione, molestiae illo optio quia sequi id fuga natus nihil ad architecto dolor alias ex sunt iste aperiam eius itaque.&lt;/p&gt;
-
-&lt;h2 id=&#34;foo&#34;&gt;foo&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, neque, eveniet voluptate eos debitis illum qui nostrum eius maxime ratione assumenda suscipit impedit deserunt voluptatibus odio ducimus non. Ex, ratione.&lt;/p&gt;
+&lt;p&gt;Although the status will show “Submitted”, I was able to start using the new Customer Number right away. I was also able to edit my the Customer Number to add another attorney’s registration number.&lt;/p&gt;
 </description>
     </item>
     
