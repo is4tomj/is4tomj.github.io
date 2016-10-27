@@ -6,8 +6,46 @@
     <description>Recent content in Posts-rsses on is4tomj</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Tom Johnson</copyright>
-    <lastBuildDate>Thu, 27 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Oct 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://is4tomj.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Preparing a Well-Written Draft Patent Application</title>
+      <link>http://is4tomj.com/posts/0003%20-%20drafting-patent-applications/</link>
+      <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://is4tomj.com/posts/0003%20-%20drafting-patent-applications/</guid>
+      <description>
+
+&lt;h2 id=&#34;qualities-of-a-well-written-draft-patent-application&#34;&gt;Qualities of a well-written draft patent application&lt;/h2&gt;
+
+&lt;p&gt;A draft patent application should be easy for an inventor (and everyone else) to read.  A well-written specification includes lots of headings and subheadings, is written in active voice as much as possible, avoids pronouns, avoids jargon, uses terms consistently, fully supports the claims.&lt;/p&gt;
+
+&lt;h2 id=&#34;background-section-and-first-substantive-section-after-the-background&#34;&gt;Background section and first substantive section after the background&lt;/h2&gt;
+
+&lt;p&gt;The background of a draft patent application should describe the problem that the invention solves. The first substantive section after the background, should summarize the solution.  Headings should then allow a reader to jump to specific sections that discuss specific components or steps.  Adding a table of contents before the General Overview section is strongly encouraged.&lt;/p&gt;
+
+&lt;h2 id=&#34;boilerplate-language&#34;&gt;Boilerplate language&lt;/h2&gt;
+
+&lt;p&gt;Boilerplate language about basic computer components or topologies should be grouped together. The meat of the draft patent application should be highlighted so that the inventors know what to focus on while reviewing.&lt;/p&gt;
+
+&lt;h2 id=&#34;dont-s&#34;&gt;Dont&amp;rsquo;s:&lt;/h2&gt;
+
+&lt;p&gt;Please do not use any of the following in a draft patent application:
+- &amp;ldquo;e.g.&amp;rdquo;: use &amp;ldquo;for example&amp;rdquo;;
+- &amp;ldquo;i.e.&amp;rdquo;;
+- Pronouns;
+- Patent profanity.&lt;/p&gt;
+
+&lt;h2 id=&#34;summary-section&#34;&gt;Summary Section&lt;/h2&gt;
+
+&lt;p&gt;Please do not include a Summary section that states anything other than the following: “The appended claims may serve as a summary of the invention.”&lt;/p&gt;
+
+&lt;h2 id=&#34;claims&#34;&gt;Claims&lt;/h2&gt;
+
+&lt;p&gt;Claims should adhere to &amp;ldquo;strict&amp;rdquo; antecedent basis rules. For example, “the &lt;something&gt;” should only occur after “a &lt;something&gt;”.  I will have a separate post defining Strict Antecedent Basis Rules with several examples.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Transfer representation for a case before the USPTO to a different agent or attorney for an application filed on or after September 16, 2012</title>
