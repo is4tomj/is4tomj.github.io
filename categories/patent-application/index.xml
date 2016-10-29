@@ -9,11 +9,41 @@
     <atom:link href="http://is4tomj.com/categories/patent-application/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Strict Antecedent Basis: Sets and Iteration</title>
-      <link>http://is4tomj.com/posts/0004-003-sets-interation/</link>
+      <title>Strict Antecedent Basis: Blocks and Scope</title>
+      <link>http://is4tomj.com/posts/0004-004-blocks/</link>
       <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://is4tomj.com/posts/0004-003-sets-interation/</guid>
+      <guid>http://is4tomj.com/posts/0004-004-blocks/</guid>
+      <description>
+
+&lt;h2 id=&#34;blocks&#34;&gt;Blocks&lt;/h2&gt;
+
+&lt;p&gt;A block is a group of components or steps that are related. Blocks should be visually identifiable with indentation. The first line of a block should end with a &lt;code&gt;:&lt;/code&gt; and each subsequent line in block should have a deeper indentation than the first line of the block.  The following is an example of a block.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;for each thing among a plurality of things:
+  doing a first action with the thing; 
+  doing a second action with the thing;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;nested-blocks&#34;&gt;Nested Blocks&lt;/h2&gt;
+
+&lt;p&gt;A block may include one or more blocks.  The following is an example of a block that includes a block.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;1. A method comprising:
+  receiving a plurality of things;
+  for each thing in the plurality of things:
+    doing a first action with the thing; 
+    doing a second action with the thing;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Strict Antecedent Basis: Sets and Iteration</title>
+      <link>http://is4tomj.com/posts/0004-003-sets-iteration/</link>
+      <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://is4tomj.com/posts/0004-003-sets-iteration/</guid>
       <description>
 
 &lt;h2 id=&#34;interating-through-a-plurlaity-of-things&#34;&gt;Interating through a plurlaity of things&lt;/h2&gt;
@@ -62,7 +92,7 @@
 &lt;li&gt;&lt;code&gt;at least two things&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The &lt;code&gt;each&lt;/code&gt; instantiating keyword phrase is a special keyword phrase that will be discussed in detail further herein.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;each&lt;/code&gt; instantiating keyword phrase is a special keyword phrase that is discussed in &lt;a href=&#34;http://is4tomj.com/posts/0004-003-sets-iteration/&#34;&gt;Sets and Iteration&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;referring-to-an-instantiated-noun-phrase&#34;&gt;Referring to an instantiated noun phrase&lt;/h3&gt;
 
@@ -105,8 +135,6 @@
   producing a second thing from the first thing by modifying the particular component;
   sending the second thing to a person.
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;nested-antecedent-basis-and-uses-of-of&#34;&gt;Nested antecedent basis and uses of &lt;em&gt;of&lt;/em&gt;&lt;/h2&gt;
 </description>
     </item>
     
@@ -134,6 +162,10 @@
     
   
     
+      &lt;li&gt;&lt;a href=&#34;http://is4tomj.com/posts/0004-004-blocks/&#34;&gt;Strict Antecedent Basis: Blocks and Scope&lt;/a&gt;&lt;/li&gt;
+    
+  
+    
       &lt;li&gt;&lt;a href=&#34;http://is4tomj.com/posts/0004-001-strict-antecedent-basis/&#34;&gt;Strict Antecedent Basis: Introduction&lt;/a&gt;&lt;/li&gt;
     
   
@@ -142,7 +174,7 @@
     
   
     
-      &lt;li&gt;&lt;a href=&#34;http://is4tomj.com/posts/0004-003-sets-interation/&#34;&gt;Strict Antecedent Basis: Sets and Iteration&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;http://is4tomj.com/posts/0004-003-sets-iteration/&#34;&gt;Strict Antecedent Basis: Sets and Iteration&lt;/a&gt;&lt;/li&gt;
     
   
     

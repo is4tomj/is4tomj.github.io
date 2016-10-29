@@ -7,8 +7,8 @@
 <head>
     <meta charset="utf-8">
     <base href="http://is4tomj.com">
-    <title> Strict Antecedent Basis: Introduction </title>
-    <link rel="canonical" href="http://is4tomj.com/posts/0004-001-strict-antecedent-basis/">
+    <title> Strict Antecedent Basis: Blocks and Scope </title>
+    <link rel="canonical" href="http://is4tomj.com/posts/0004-004-blocks/">
     
 
 <link rel="stylesheet" href="http://is4tomj.com/css/poole.css">
@@ -59,48 +59,33 @@
 
     
     <div class="container content">
-      <h1 class="post-title">Strict Antecedent Basis: Introduction</h1>
+      <h1 class="post-title">Strict Antecedent Basis: Blocks and Scope</h1>
         <section id="main">
           <h5 id="date">
-            Created: Oct 26, 2016; Modified: Oct 28, 2016.
+            Created: Oct 28, 2016.
           </h5>
 
           
 
-<h2 id="strict-antecedent-basis">Strict Antecedent Basis</h2>
+<h2 id="blocks">Blocks</h2>
 
-<p>&ldquo;It is of utmost importance that patents issue with definite claims that clearly and precisely inform persons skilled in the art of the boundaries of protected subject matter.&rdquo; <a href="https://www.uspto.gov/web/offices/pac/mpep/s2173.html">MPEP 2173</a>; see 35 U.S.C § 112(b). Unfortunately, the English language is too flexible and too complicated for many people to write a clear claim.</p>
+<p>A block is a group of components or steps that are related. Blocks should be visually identifiable with indentation. The first line of a block should end with a <code>:</code> and each subsequent line in block should have a deeper indentation than the first line of the block.  The following is an example of a block.</p>
 
-<p>Strict Antecedent Basis is a standard that eliminates many ambiguities caused by lazy or novice claim drafters. Strict Antecedent Basis rules are specifically tailored to draft claims that clearly meet the standards of the USPTO and US law.</p>
+<pre><code class="language-claim">for each thing among a plurality of things:
+  doing a first action with the thing; 
+  doing a second action with the thing;
+</code></pre>
 
-<p>The following posts define the Strict Antecedent Basis rules and provide numerous examples. New posts will be added to this list and posts may be updated over time.</p>
+<h2 id="nested-blocks">Nested Blocks</h2>
 
-<ul>
-  
-  
-    
-  
-    
-  
-    
-      <li><a href="http://is4tomj.com/posts/0004-004-blocks/">Strict Antecedent Basis: Blocks and Scope</a></li>
-    
-  
-    
-      <li><a href="http://is4tomj.com/posts/0004-001-strict-antecedent-basis/">Strict Antecedent Basis: Introduction</a></li>
-    
-  
-    
-      <li><a href="http://is4tomj.com/posts/0004-002-noun-phrases/">Strict Antecedent Basis: Noun Phrases</a></li>
-    
-  
-    
-      <li><a href="http://is4tomj.com/posts/0004-003-sets-iteration/">Strict Antecedent Basis: Sets and Iteration</a></li>
-    
-  
-    
-  
-</ul>
+<p>A block may include one or more blocks.  The following is an example of a block that includes a block.</p>
+
+<pre><code class="language-claim">1. A method comprising:
+  receiving a plurality of things;
+  for each thing in the plurality of things:
+    doing a first action with the thing; 
+    doing a second action with the thing;
+</code></pre>
 
         </section>
     </div>
@@ -114,14 +99,10 @@
   <hr />
   <hr />
   
-    <span class="left">
-    &nbsp; <em>&laquo; Previous:</em> <a class="next" href="http://is4tomj.com/posts/0004-002-noun-phrases/">Strict Antecedent Basis: Noun Phrases</a>
-    </span>
-  
 
   
     <span class="right">
-    <em>Next: </em><a class="next" href="http://is4tomj.com/posts/0003-drafting-patent-applications/"> &nbsp; Properties of a Well-Written Draft Patent Application</a> &raquo;
+    <em>Next: </em><a class="next" href="http://is4tomj.com/posts/0004-003-sets-iteration/"> &nbsp; Strict Antecedent Basis: Sets and Iteration</a> &raquo;
     </span>
   
 </div>
