@@ -123,24 +123,31 @@
 &lt;p&gt;A noun phrase references an object that is immutable. If the object is modified, then the object is a new object.  Accordingly, a new noun phrase should be instantiated to represent the new object.  The following is an example of assigning a new noun phrase to a modified object:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;1. A method comprising:
-  receiving a first thing;
-  modifying the first thing to produce a second thing.
+   receiving a first thing;
+   modifying the first thing to produce a second thing.
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Do not make a noun phrase ambiguous by referring to two objects with the same noun phrase.  The following is an example of a claim that creates an antecedent basis error by using a single noun phrase to reference two objects with different states:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;1. A method comprising:
-  receiving a thing that includes a partiuclar component;
-  modifying the particular component included in the thing;
-  sending the thing to a person.
+   receiving a thing that includes a partiuclar component;
+   modifying the particular component included in the thing;
+   sending the thing to a client computer.
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The following claim is free of antecedent basis errors by assigning a new noun phrase to a modified object:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;1. A method comprising:
-  receiving a first thing that includes a particular component;
-  producing a second thing from the first thing by modifying the particular component;
-  sending the second thing to a person.
+   receiving a first thing that includes a particular component;
+   producing a second thing from the first thing by modifying the particular component;
+   sending the second thing to a client computer.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Although a noun phrase represents an immutable object, a new noun phrase should not be instantiated when an object is merely clarified.  The following is an example of a noun phrase that represents an object that is further clarified after the noun phrase was instantiated.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;1. A method comprising:
+   receiving a first thing, wherein the first thing has a first component;
+   sending the first thing to a client computer.
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
