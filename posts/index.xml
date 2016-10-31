@@ -19,16 +19,27 @@
 
 &lt;h2 id=&#34;blocks&#34;&gt;Blocks&lt;/h2&gt;
 
-&lt;p&gt;A block is a group of components or steps that are related. Blocks should be visually identifiable with indentation. The first line of a block should end with a &lt;code&gt;:&lt;/code&gt; and each subsequent line in the block should have a deeper indentation than the first line of the block. The second to last line should end with either &lt;code&gt;; and&lt;/code&gt; or &lt;code&gt;, and&lt;/code&gt;, whichever is more appropriate.  The following is an example of a block.&lt;/p&gt;
+&lt;p&gt;A block is a group of components or steps that are related. Block that are multi-line blocks should be visually identifiable with indentation. The first line of a  multi-line block should end with a &lt;code&gt;:&lt;/code&gt; and each subsequent line in the block should have a deeper indentation than the first line of the block. The second to last line should end with one of the following, whichever is more appropriate:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;, or&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;; or&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;, and&lt;/code&gt;, or&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;; and&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following is an example of a  multi-line block.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;for each thing among a plurality of things:
   doing a first action with the thing; and
   doing a second action with the thing;
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;p&gt;A single-line block is used primarily to iterate over a set. Accordingly, single-line blocks are discussed in &lt;a href=&#34;http://is4tomj.com/posts/0004-003-sets-iteration/&#34;&gt;Sets and Iteration&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;nested-blocks&#34;&gt;Nested Blocks&lt;/h2&gt;
 
-&lt;p&gt;A block may include one or more blocks.  The following is an example of a block that includes a block.&lt;/p&gt;
+&lt;p&gt;A block may include one or more blocks.  The following is an example of a block that includes a nested block.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;A method comprising:
   receiving a plurality of things;
