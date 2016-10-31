@@ -39,7 +39,7 @@
 
 &lt;h2 id=&#34;scope&#34;&gt;Scope&lt;/h2&gt;
 
-&lt;p&gt;More is coming.&lt;/p&gt;
+&lt;p&gt;More is coming here.&lt;/p&gt;
 </description>
     </item>
     
@@ -58,7 +58,7 @@
   doing a second action with the thing;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Obviously much more is coming here.&lt;/p&gt;
+&lt;p&gt;More is coming here.&lt;/p&gt;
 </description>
     </item>
     
@@ -81,7 +81,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;a&lt;/code&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;an&lt;/code&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;one|two|𝑥&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;one|two|&lt;/code&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;at least&lt;/code&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;each&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -103,7 +103,7 @@
 
 &lt;h3 id=&#34;referring-to-an-instantiated-noun-phrase&#34;&gt;Referring to an instantiated noun phrase&lt;/h3&gt;
 
-&lt;p&gt;After a noun phrase is instantiated, the &lt;code&gt;the&lt;/code&gt; keyword phrase should be used to reference the noun phrase exactly as the noun phrase is instantiated. The following are examples of referring to an instantiated noun phrase:&lt;/p&gt;
+&lt;p&gt;Use the &lt;code&gt;the&lt;/code&gt; keyword phrase to reference a noun phrase exactly as instantiated. The following are examples of referencing an instantiated noun phrase:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;the first thing&lt;/code&gt;,&lt;/li&gt;
@@ -116,7 +116,7 @@
 &lt;li&gt;&lt;code&gt;the at least two things&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;A noun phrase should not be referenced using a modifier, such as an adjective.  For example, if a claims includes &lt;code&gt;receiving a thing&lt;/code&gt;, then &lt;code&gt;the thing&lt;/code&gt; should &lt;strong&gt;not&lt;/strong&gt; be referenced as &lt;code&gt;the received thing&lt;/code&gt; in the claim.&lt;/p&gt;
+&lt;p&gt;A noun phrase should not be referenced using a modifier, such as an adjective.  For example, if a claim includes &lt;code&gt;receiving a thing&lt;/code&gt;, then &lt;code&gt;the thing&lt;/code&gt; should &lt;strong&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/strong&gt; be referenced as &lt;code&gt;the received thing&lt;/code&gt; in the claim.&lt;/p&gt;
 
 &lt;h3 id=&#34;a-noun-phrase-references-an-immutable-object&#34;&gt;A noun phrase references an immutable object&lt;/h3&gt;
 
@@ -130,12 +130,14 @@
 &lt;p&gt;Do not make a noun phrase ambiguous by referring to two objects with the same noun phrase.  The following is an example of a claim that creates an antecedent basis error by using a single noun phrase to reference two objects with different states:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;1. A method comprising:
-   receiving a thing that includes a partiuclar component;
-   modifying the particular component included in the thing;
+   receiving a thing that includes an original component;
+   modifying the original component included in the thing;
    sending the thing to a client computer.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;The following claim is free of antecedent basis errors by assigning a new noun phrase to a modified object:&lt;/p&gt;
+&lt;p&gt;Some may argue that sending &lt;code&gt;the thing&lt;/code&gt; clearly means sending &lt;code&gt;the thing&lt;/code&gt; with a new component from a previous component included in &lt;code&gt;the claim&lt;/code&gt;. However, that logic requires steps in a claim to have a rigid order, and someone could invent around the claimed invention by merely performing two or more steps in a different order. Furthermore, in a long or subsequent dependent claim, a reader may also have a hard time determining whether a reference to &lt;code&gt;the thing&lt;/code&gt; is referring to &lt;code&gt;the thing&lt;/code&gt; with the previous component or the new component.&lt;/p&gt;
+
+&lt;p&gt;The following claim is free of antecedent basis errors by assigning a new noun phrase to a new object created by modifying an original object:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;1. A method comprising:
    receiving a first thing that includes a particular component;
@@ -143,7 +145,7 @@
    sending the second thing to a client computer.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;a-new-noun-phrase-should-not-be-instantiated-for-further-characterization-clarification-or-description&#34;&gt;A new noun phrase should not be instantiated for further characterization, clarification, or description&lt;/h3&gt;
+&lt;h3 id=&#34;do-not-instantiate-a-new-noun-phrase-for-further-characterization-clarification-or-description-of-an-underlying-component&#34;&gt;Do not instantiate a new noun phrase for further characterization, clarification, or description of an underlying component.&lt;/h3&gt;
 
 &lt;p&gt;Although a noun phrase represents an immutable object, a new noun phrase should not be instantiated when an object is merely further characterized, clarified, or described.  The following is an example of a noun phrase that represents an object that is further described after the noun phrase was instantiated.&lt;/p&gt;
 
@@ -166,9 +168,13 @@
 
 &lt;p&gt;&amp;ldquo;It is of utmost importance that patents issue with definite claims that clearly and precisely inform persons skilled in the art of the boundaries of protected subject matter.&amp;rdquo; &lt;a href=&#34;https://www.uspto.gov/web/offices/pac/mpep/s2173.html&#34;&gt;MPEP 2173&lt;/a&gt;; see 35 U.S.C § 112(b). Unfortunately, the English language is too flexible and too complicated for many people to write a clear claim.&lt;/p&gt;
 
-&lt;p&gt;Strict Antecedent Basis is a standard that eliminates many ambiguities caused by lazy or novice claim drafters. Strict Antecedent Basis rules are specifically tailored to draft claims that clearly meet the standards of the USPTO and US law.&lt;/p&gt;
+&lt;p&gt;Strict Antecedent Basis is a standard that eliminates many ambiguities caused by lazy or novice claim drafters. Strict Antecedent Basis rules are tailored to draft claims that clearly meet the standards of the USPTO and US law.&lt;/p&gt;
 
-&lt;p&gt;The following posts define the Strict Antecedent Basis rules and provide numerous examples. New posts will be added to this list and posts may be updated over time.&lt;/p&gt;
+&lt;p&gt;Definite claims do not mean narrow claims, and indefinite or ambiguous claims do not mean broad claims. A good patent practitioner drafts claims that are both definite and broad.&lt;/p&gt;
+
+&lt;p&gt;A court can just as easily construe an ambiguous term narrowly instead of broadly. I would prefer to stand confidently in court knowing that an infringer is clearly infringing my patent rather than hoping that I fall ass-backwards into good fortune with a court that construes my claims broadly enough for me stop, or collect a royalty from, the infringer. Furthermore, requiring a court to construe ambiguous claims can increase the cost of litigation or worse &amp;ndash; invalidate my patent.&lt;/p&gt;
+
+&lt;p&gt;The following posts define the Strict Antecedent Basis rules and provide numerous examples. I will update posts and add new posts over time.&lt;/p&gt;
 
 &lt;ul&gt;
   
