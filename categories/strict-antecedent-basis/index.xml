@@ -103,7 +103,7 @@ doing the first thing with a second object;
 &lt;p&gt;The keyword phrase &lt;code&gt;each&lt;/code&gt;, unlike any of the other keyword phrases that instantiate a noun phrase, instantiates a noun phrase for an object only within the scope of the iterative block.  The following is an example that violates this rule.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;for each thing among a plurality of things:
-  doing a first action with the thing; 
+  doing a first action with the thing; and
   doing a second action with the thing;
 creating a particular widget;
 doing a third action with the thing and the particular widget;
