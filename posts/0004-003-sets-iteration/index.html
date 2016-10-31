@@ -62,20 +62,20 @@
       <h1 class="post-title">Strict Antecedent Basis: Sets and Iteration</h1>
         <section id="main">
           <h5 id="date">
-            Created: Oct 28, 2016.
+            Created: Oct 28, 2016; Modified: Oct 30, 2016.
           </h5>
 
           
 
 <h2 id="sets">Sets</h2>
 
-<p><strong><strong>Attention</strong></strong>: courts may construe a &ldquo;set&rdquo; of objects as two or more objects. This is a ridiculous interpretation because any one skilled in the art of software knows that a set can comprise zero or more objects. One solution is to include the following in the specification:</p>
+<p><strong><strong>Attention</strong></strong>: courts may construe a &ldquo;set&rdquo; of objects as two or more objects. Construing sets to mean two or more is a ridiculous interpretation because one skilled in the art of software knows that a set can comprise zero or more objects. One solution is to include the following in the specification:</p>
 
 <blockquote>
 <p>A &ldquo;set&rdquo; may comprise zero, one, or two or more elements.</p>
 </blockquote>
 
-<h2 id="first-rule-of-sets-do-not-use-sets">First rule of Sets — do not use sets</h2>
+<h2 id="the-first-rule-of-sets-do-not-use-sets">The First rule of Sets — do not use sets</h2>
 
 <p>Sets often create confusion. Do not use a set unless a set is required.</p>
 
@@ -87,7 +87,7 @@ doing the first thing with a second object;
 
 <h2 id="second-rule-of-sets-if-using-a-set-is-required-then-do-not-use-respectively-language">Second rule of Sets – if using a set is required, then do not use &ldquo;respectively&rdquo; language</h2>
 
-<p>A claim that uses a set will frequently use &ldquo;respectively&rdquo; haphazardly, and often incorrectly, throughout the claim. If two sets are needed, and objects in a first set are related to a corresponding object in a second set, then consider doing the following:</p>
+<p>A claim that uses a set often uses &ldquo;respectively&rdquo; haphazardly, and often incorrectly, throughout the claim. If two sets are needed, and each object in a first set is related to a corresponding object in a second set, then consider doing the following:</p>
 
 <pre><code class="language-claims">A method comprising:
   ... a first set of objects;
@@ -99,16 +99,36 @@ doing the first thing with a second object;
   performing a step with the particular object and the corresponding object.
 </code></pre>
 
-<h2 id="iterating-through-a-set">Iterating through a set</h2>
+<h2 id="iterative-blocks">Iterative blocks</h2>
 
-<p>Iterating over a plurality of things frequently leads to tricky claim language.</p>
+<p>Iterating over a plurality of things leads to tricky claim language. When iterating over a set is required, perform the iteration with an iterative block. The following is an example of an iterative block that performs two actions on each object in a set:</p>
+
+<pre><code class="language-claim">for each thing among a plurality of things:
+  doing a first action with the thing;
+  doing a second action with the thing;
+</code></pre>
+
+<p>In this example, the claim is iterating over a set—the plurality of things— and doing a first action and a second action with the thing from the plurality of things in the current iteration.</p>
+
+<p>An iterative block may be a single line. For example, the following is an example of an iterative block that is a single line. The scope, which is discussed further herein, is just the single line.</p>
+
+<pre><code class="language-claim">for each thing among a plurality of things, doing an action with the thing; 
+</code></pre>
+
+<h2 id="scope-and-iterative-blocks">Scope and iterative blocks</h2>
+
+<p>The keyword phrase <code>each</code>, unlike any of the other keyword phrases that instantiate a noun phrase, instantiates a noun phrase for an object only within the scope of the iterative block.  The following is an example that violates this rule.</p>
 
 <pre><code class="language-claim">for each thing among a plurality of things:
   doing a first action with the thing; 
   doing a second action with the thing;
+creating a particular widget;
+doing a third action with the thing and the particular widget;
 </code></pre>
 
-<p>More is coming here.</p>
+<p>As seen in the above example, the reference to <code>the thing</code> in the last line is nonsensical, because the reference to <code>the thing</code> is outside the scope of the iterative block.</p>
+
+<p>More is coming.</p>
 
         </section>
     </div>
