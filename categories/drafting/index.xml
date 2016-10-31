@@ -18,7 +18,7 @@
 
 &lt;h2 id=&#34;blocks&#34;&gt;Blocks&lt;/h2&gt;
 
-&lt;p&gt;A block is a group of components or steps that are related. Blocks should be visually identifiable with indentation. The first line of a block should end with a &lt;code&gt;:&lt;/code&gt; and each subsequent line in the block should have a deeper indentation than the first line of the block.  The following is an example of a block.&lt;/p&gt;
+&lt;p&gt;A block is a group of components or steps that are related. Blocks should be visually identifiable with indentation. The first line of a block should end with a &lt;code&gt;:&lt;/code&gt; and each subsequent line in the block should have a deeper indentation than the first line of the block. The second to last line should end with either &lt;code&gt;; and&lt;/code&gt; or &lt;code&gt;, and&lt;/code&gt;, whichever is more appropriate.  The following is an example of a block.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;for each thing among a plurality of things:
   doing a first action with the thing; 
