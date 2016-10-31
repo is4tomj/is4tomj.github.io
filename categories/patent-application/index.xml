@@ -62,7 +62,7 @@
 
 &lt;p&gt;Sets often create confusion. Do not use a set unless a set is required.&lt;/p&gt;
 
-&lt;p&gt;In most cases, use one or two objects. Referencing multiple references for multiple objects is usually clearer and broader than using sets. The following is an example:&lt;/p&gt;
+&lt;p&gt;In many cases, you can use one or two objects rather than a set. Referencing multiple references for multiple objects is usually clearer and broader than using sets. The following is an example:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;doing a first thing with a first object;
 doing the first thing with a second object;
