@@ -29,11 +29,11 @@
 
 &lt;p&gt;A block may include one or more blocks.  The following is an example of a block that includes a block.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;1. A method comprising:
-   receiving a plurality of things;
-   for each thing in the plurality of things:
-     doing a first action with the thing; 
-     doing a second action with the thing.
+&lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;A method comprising:
+  receiving a plurality of things;
+  for each thing in the plurality of things:
+    doing a first action with the thing; 
+    doing a second action with the thing.
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;scope&#34;&gt;Scope&lt;/h2&gt;
@@ -50,7 +50,41 @@
       <guid>http://is4tomj.com/posts/0004-003-sets-iteration/</guid>
       <description>
 
-&lt;h2 id=&#34;interating-through-a-plurlaity-of-things&#34;&gt;Interating through a plurlaity of things&lt;/h2&gt;
+&lt;h2 id=&#34;sets&#34;&gt;Sets&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Attention&lt;/strong&gt;&lt;/strong&gt;: courts may construe a &amp;ldquo;set&amp;rdquo; of objects as two or more objects. This is a ridiculous interpretation because any one skilled in the art of software knows that a set can comprise zero or more objects. One solution is to include the following in the specification:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A &amp;ldquo;set&amp;rdquo; may comprise zero, one, or two or more elements.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;first-rule-of-sets-do-not-use-sets&#34;&gt;First rule of Sets — do not use sets&lt;/h2&gt;
+
+&lt;p&gt;Sets often create confusion. Do not use a set unless a set is required.&lt;/p&gt;
+
+&lt;p&gt;In most cases, use one or two objects. Using referencing multiple objects individually makes a claim clearer and broader. The following is an example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;doing a first thing with a first object;
+doing the first thing with a second object;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;second-rule-of-sets-if-using-a-set-is-required-then-do-not-use-respectively-language&#34;&gt;Second rule of Sets – if using a set is required, then do not use &amp;ldquo;respectively&amp;rdquo; language&lt;/h2&gt;
+
+&lt;p&gt;A claim that uses a set will frequently use &amp;ldquo;respectively&amp;rdquo; haphazardly, and often incorrectly, throughout the claim. If two sets are needed, and objects in a first set are related to a corresponding object in a second set, then consider doing the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-claims&#34;&gt;A method comprising:
+  ... a first set of objects;
+  ... a second set of objects;
+  wherein each object in the first set of objects has a corresponding object in the second set of objects;
+  ...
+  selecting a particular object from the first set of objects;
+  ...
+  performing a step with the particular object and the corresponding object.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;iterating-through-a-set&#34;&gt;Iterating through a set&lt;/h2&gt;
+
+&lt;p&gt;Iterating over a plurality of things frequently leads to tricky claim language.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;for each thing among a plurality of things:
   doing a first action with the thing; 

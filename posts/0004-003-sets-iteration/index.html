@@ -67,7 +67,41 @@
 
           
 
-<h2 id="interating-through-a-plurlaity-of-things">Interating through a plurlaity of things</h2>
+<h2 id="sets">Sets</h2>
+
+<p><strong><strong>Attention</strong></strong>: courts may construe a &ldquo;set&rdquo; of objects as two or more objects. This is a ridiculous interpretation because any one skilled in the art of software knows that a set can comprise zero or more objects. One solution is to include the following in the specification:</p>
+
+<blockquote>
+<p>A &ldquo;set&rdquo; may comprise zero, one, or two or more elements.</p>
+</blockquote>
+
+<h2 id="first-rule-of-sets-do-not-use-sets">First rule of Sets — do not use sets</h2>
+
+<p>Sets often create confusion. Do not use a set unless a set is required.</p>
+
+<p>In most cases, use one or two objects. Using referencing multiple objects individually makes a claim clearer and broader. The following is an example:</p>
+
+<pre><code class="language-claim">doing a first thing with a first object;
+doing the first thing with a second object;
+</code></pre>
+
+<h2 id="second-rule-of-sets-if-using-a-set-is-required-then-do-not-use-respectively-language">Second rule of Sets – if using a set is required, then do not use &ldquo;respectively&rdquo; language</h2>
+
+<p>A claim that uses a set will frequently use &ldquo;respectively&rdquo; haphazardly, and often incorrectly, throughout the claim. If two sets are needed, and objects in a first set are related to a corresponding object in a second set, then consider doing the following:</p>
+
+<pre><code class="language-claims">A method comprising:
+  ... a first set of objects;
+  ... a second set of objects;
+  wherein each object in the first set of objects has a corresponding object in the second set of objects;
+  ...
+  selecting a particular object from the first set of objects;
+  ...
+  performing a step with the particular object and the corresponding object.
+</code></pre>
+
+<h2 id="iterating-through-a-set">Iterating through a set</h2>
+
+<p>Iterating over a plurality of things frequently leads to tricky claim language.</p>
 
 <pre><code class="language-claim">for each thing among a plurality of things:
   doing a first action with the thing; 
