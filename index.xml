@@ -78,7 +78,7 @@ doing a third action with the thing and the particular widget;
 
 &lt;p&gt;As seen in the example above, the reference to the thing in the last line is nonsensical, because the reference to the thing in the last line is outside the scope of the iterative block.&lt;/p&gt;
 
-&lt;h2 id=&#34;multiple-iterative-blocks&#34;&gt;Multiple iterative blocks&lt;/h2&gt;
+&lt;h3 id=&#34;multiple-iterative-blocks&#34;&gt;Multiple iterative blocks&lt;/h3&gt;
 
 &lt;h3 id=&#34;nested-blocks&#34;&gt;Nested blocks&lt;/h3&gt;
 
