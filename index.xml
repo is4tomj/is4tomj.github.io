@@ -6,8 +6,28 @@
     <description>Recent content on is4tomj</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Tom Johnson</copyright>
-    <lastBuildDate>Fri, 28 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://is4tomj.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Patent Drafting: Specificity vs Breadth</title>
+      <link>http://is4tomj.com/posts/0005-specificity-vs-breadth/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://is4tomj.com/posts/0005-specificity-vs-breadth/</guid>
+      <description>&lt;p&gt;A patent specification should be as detailed as possible, including as many specific examples and embodiments as possible. However, the claims in the patent should be as broad as possible.&lt;/p&gt;
+
+&lt;p&gt;One of my biggest pet-peeves is when a patent practitioner that should have a kung-fu-like grip on this topic says something like following, referring to drafting patents:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Attorneys are taught the art of both being hyper-specific, which is necessary at times, but also the art of being anything but specific. I would not say vague because a patent cannot be vague.&amp;rdquo; &amp;ndash; Gene Quinn &lt;a href=&#34;IPWatchDog.com&#34;&gt;IPWatchDog.com&lt;/a&gt; via this Inc. &lt;a href=&#34;http://www.inc.com/stephen-key/should-you-hire-a-patent-agent-instead-of-a-patent-attorney.html&#34;&gt;post&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This statement confuses and frustrates the lay person. I am sure Gene Quinn understands this topic well, but for whatever reason, his statement was confusing.&lt;/p&gt;
+
+&lt;p&gt;To be clear: Nothing in a patent should be vague—ever. The claims should be broad, definite, and clear (&lt;a href=&#34;posts/sab-intro&#34;&gt;see Strict Antecedent Basis&lt;/a&gt;), but never vague. The specification should also be clear with as many embodiments with concrete examples as possible.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Strict Antecedent Basis: Sets and Iteration</title>
@@ -327,6 +347,8 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
   
     
       &lt;li&gt;&lt;a href=&#34;http://is4tomj.com/posts/sab-sets-and-iteration&#34;&gt;Strict Antecedent Basis: Sets and Iteration&lt;/a&gt;&lt;/li&gt;
+    
+  
     
   
 &lt;/ul&gt;&lt;/p&gt;
