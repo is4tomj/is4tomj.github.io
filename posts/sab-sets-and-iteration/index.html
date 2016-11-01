@@ -1,0 +1,198 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <base href="http://is4tomj.com">
+    <title> Strict Antecedent Basis: Sets and Iteration </title>
+    <link rel="canonical" href="http://is4tomj.com/posts/sab-sets-and-iteration">
+    
+
+<link rel="stylesheet" href="http://is4tomj.com/css/poole.css">
+<link rel="stylesheet" href="http://is4tomj.com/css/syntax.css">
+<link rel="stylesheet" href="http://is4tomj.com/css/lanyon.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+
+</head>
+
+
+<body class="theme-base-08">
+  
+
+
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="http://is4tomj.com/">Home</a>
+    <a class="sidebar-nav-item" href="http://is4tomj.com/posts">Blog</a>
+    <a class="sidebar-nav-item" href="http://twitter.com/is4tomj">Twitter</a>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2016 Tom Johnson. Powered by <a href="http://hugo.spf13.com">Hugo</a>. Design adapted from <a href="http://lanyon.getpoole.com">Lanyon</a>.
+    </p>
+  </div>
+</div>
+
+
+  
+  <div class="wrap">
+    <div class="masthead">
+  <div class="container">
+    <h3 class="masthead-title">
+      <a href="http://is4tomj.com/" title="Home">Home</a>
+      |
+      <a href="http://twitter.com/is4tomj" title="Twitter">Contact</a>
+      |
+      
+      <a href="http://is4tomj.com/posts/sab-intro">Strict Antecedent Basis</a>
+    </h3>
+  </div>
+</div>
+
+    
+    <div class="container content">
+      <h1 class="post-title">Strict Antecedent Basis: Sets and Iteration</h1>
+        <section id="main">
+          <h5 id="date">
+            Created: Oct 28, 2016; Modified: Oct 31, 2016.
+          </h5>
+
+          
+
+<hr/>
+I am updating, or adding to, this page. Please let me know if you have suggestions or fixes. You can let me know on <a href="http://twitter.com/is4tomj" target="_blank">Twitter (@is4tomj)</a> or make a pull request on <a href="https://github.com/is4tomj/is4tomj-hugo" target="_blank">https://github.com/is4tomj/is4tomj-hugo</a>.
+<hr/>
+
+<h2 id="sets">Sets</h2>
+
+<p><strong><strong>Attention</strong></strong>: courts may construe a &ldquo;set&rdquo; of objects as two or more objects. Construing sets to mean two or more is a ridiculous interpretation because one skilled in the art of software knows that a set can comprise zero or more objects. One solution is to include the following in the specification:</p>
+
+<blockquote>
+<p>A &ldquo;set&rdquo; may comprise zero, one, or two or more elements.</p>
+</blockquote>
+
+<h2 id="the-first-rule-of-sets-do-not-use-sets">The first rule of sets — do not use sets</h2>
+
+<p>Sets often create confusion. Do not use a set unless a set is required.</p>
+
+<p>In many cases, you can use one or two objects rather than a set. Referencing multiple references for multiple objects is usually clearer and broader than using sets. The following is an example:</p>
+
+<pre><code class="language-claim">doing a first thing with a first object;
+doing the first thing with a second object;
+</code></pre>
+
+<h2 id="second-rule-of-sets-if-using-a-set-is-required-then-do-not-use-respectively-language">Second rule of sets – if using a set is required, then do not use &ldquo;respectively&rdquo; language</h2>
+
+<p>A claim that uses a set often uses &ldquo;respectively&rdquo; haphazardly, and often incorrectly, throughout the claim. If two sets are needed, and each object in a first set is related to a corresponding object in a second set, then consider doing the following:</p>
+
+<pre><code class="language-claims">A method comprising:
+  ... a first set of objects;
+  ... a second set of objects;
+  wherein each object in the first set of objects has a corresponding object in the second set of objects;
+  ...
+  selecting a particular object from the first set of objects;
+  ...
+  performing a step with the particular object and the corresponding object.
+</code></pre>
+
+<h2 id="iterative-blocks">Iterative blocks</h2>
+
+<p>Iterating over a plurality of things leads to tricky claim language. When iterating over a set is required, perform the iteration with an iterative block. The following is an example of an iterative block that performs two actions on each object in a set:</p>
+
+<pre><code class="language-claim">for each thing among a plurality of things:
+  doing a first action with the thing;
+  doing a second action with the thing;
+</code></pre>
+
+<p>In this example, the claim is iterating over a set—the plurality of things— and doing a first action and a second action with the thing from the plurality of things in the current iteration.</p>
+
+<p>An iterative block may be a single line. For example, the following is an example of an iterative block that is a single line. The scope, which is discussed further herein, is just the single line.</p>
+
+<pre><code class="language-claim">for each thing among a plurality of things, doing an action with the thing; 
+</code></pre>
+
+<h2 id="scope-and-iterative-blocks">Scope and iterative blocks</h2>
+
+<p>The keyword phrase <code>each</code>, unlike any of the other keyword phrases that instantiate a noun phrase, instantiates a noun phrase for an object only within the scope of the iterative block.  The following is an example that violates this rule.</p>
+
+<pre><code class="language-claim">for each thing among a plurality of things:
+  doing a first action with the thing; and
+  doing a second action with the thing;
+creating a particular widget;
+doing a third action with the thing and the particular widget;
+</code></pre>
+
+<p>As seen in the example above, the reference to the thing in the last line is nonsensical, because the reference to the thing in the last line is outside the scope of the iterative block.</p>
+
+<h3 id="multiple-iterative-blocks">Multiple iterative blocks</h3>
+
+<h3 id="nested-blocks">Nested blocks</h3>
+
+<p>More is coming.</p>
+
+        </section>
+    </div>
+  </div>
+
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  
+
+<div class="container">
+  <hr />
+  <hr />
+  
+
+  
+</div>
+
+  <br />
+  
+<div class="container">
+  <ul class="catlist">
+    <li><em>Categories: </em></li>
+    
+      <li><a href="http://is4tomj.com/categories/strict-antecedent-basis">Strict Antecedent Basis</a> </li>
+    
+      <li><a href="http://is4tomj.com/categories/drafting">Drafting</a> </li>
+    
+      <li><a href="http://is4tomj.com/categories/patent-application">Patent Application</a> </li>
+    
+      <li><a href="http://is4tomj.com/categories/claims">Claims</a> </li>
+    
+      <li><a href="http://is4tomj.com/categories/critical-skill">Critical Skill</a> </li>
+    
+  </ul>
+</div>
+
+
+
+  
+  
+
+<div class="container content">
+<footer>
+  <div>
+    <p class="right credit">
+    &copy; 2016 Tom Johnson.
+    </p>
+  </div>
+</footer>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+

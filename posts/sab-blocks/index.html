@@ -7,8 +7,8 @@
 <head>
     <meta charset="utf-8">
     <base href="http://is4tomj.com">
-    <title> Properties of a Well-Written Draft Patent Application </title>
-    <link rel="canonical" href="http://is4tomj.com/posts/0003-drafting-patent-applications/">
+    <title> Strict Antecedent Basis: Blocks and Scope </title>
+    <link rel="canonical" href="http://is4tomj.com/posts/sab-blocks">
     
 
 <link rel="stylesheet" href="http://is4tomj.com/css/poole.css">
@@ -59,44 +59,48 @@
 
     
     <div class="container content">
-      <h1 class="post-title">Properties of a Well-Written Draft Patent Application</h1>
+      <h1 class="post-title">Strict Antecedent Basis: Blocks and Scope</h1>
         <section id="main">
           <h5 id="date">
-            Created: Oct 25, 2016.
+            Created: Oct 27, 2016; Modified: Oct 31, 2016.
           </h5>
 
           
 
-<h2 id="qualities-of-a-well-written-draft-patent-application">Qualities of a well-written draft patent application</h2>
+<hr/>
+I am updating, or adding to, this page. Please let me know if you have suggestions or fixes. You can let me know on <a href="http://twitter.com/is4tomj" target="_blank">Twitter (@is4tomj)</a> or make a pull request on <a href="https://github.com/is4tomj/is4tomj-hugo" target="_blank">https://github.com/is4tomj/is4tomj-hugo</a>.
+<hr/>
 
-<p>A draft patent application should be easy for an inventor (and everyone else) to read.  A well-written specification includes lots of headings and subheadings, is written in active voice as much as possible, avoids pronouns, avoids jargon, uses terms consistently, fully supports the claims.</p>
+<h2 id="blocks">Blocks</h2>
 
-<h2 id="background-section-and-first-substantive-section-after-the-background">Background section and first substantive section after the background</h2>
-
-<p>The background of a draft patent application should describe the problem that the invention solves. The first substantive section after the background, should summarize the solution.  Headings should then allow a reader to jump to specific sections that discuss specific components or steps.  Adding a table of contents before the General Overview section is strongly encouraged.</p>
-
-<h2 id="boilerplate-language">Boilerplate language</h2>
-
-<p>Boilerplate language about basic computer components or topologies should be grouped together. The meat of the draft patent application should be highlighted so that the inventors know what to focus on while reviewing.</p>
-
-<h2 id="dont-s">Dont&rsquo;s:</h2>
-
-<p>Please do not use any of the following in a draft patent application:</p>
+<p>A block is a group of components or steps that are related. Block that are multi-line blocks should be visually identifiable with indentation. The first line of a  multi-line block should end with a <code>:</code> and each subsequent line in the block should have a deeper indentation than the first line of the block. The second to last line should end with one of the following, whichever is more appropriate:</p>
 
 <ul>
-<li>&ldquo;e.g.&rdquo;,</li>
-<li>&ldquo;i.e.&rdquo;,</li>
-<li>Pronouns,</li>
-<li>Patent profanity.</li>
+<li><code>, or</code>,</li>
+<li><code>; or</code>,</li>
+<li><code>, and</code>, or</li>
+<li><code>; and</code>.</li>
 </ul>
 
-<h2 id="summary-section">Summary Section</h2>
+<p>The following is an example of a  multi-line block.</p>
 
-<p>Please do not include a Summary section that states anything other than the following: “The appended claims may serve as a summary of the invention.”</p>
+<pre><code class="language-claim">for each thing among a plurality of things:
+  doing a first action with the thing; and
+  doing a second action with the thing;
+</code></pre>
 
-<h2 id="claims">Claims</h2>
+<p>A single-line block is used primarily to iterate over a set. Accordingly, single-line blocks are discussed in <a href="http://is4tomj.com/posts/sab-sets-and-iteration">Sets and Iteration</a>.</p>
 
-<p>Claims should adhere to Strict Antecedent Basis Rules. For example, “the &lt;something&gt;” should only occur after “a &lt;something&gt;”.  I will have a separate post that defines Strict Antecedent Basis Rules with several examples.</p>
+<h2 id="nested-blocks">Nested Blocks</h2>
+
+<p>A block may include one or more blocks.  The following is an example of a block that includes a nested block.</p>
+
+<pre><code class="language-claim">A method comprising:
+  receiving a plurality of things;
+  for each thing in the plurality of things:
+    doing a first action with the thing; and
+    doing a second action with the thing.
+</code></pre>
 
         </section>
     </div>
@@ -120,9 +124,13 @@
   <ul class="catlist">
     <li><em>Categories: </em></li>
     
+      <li><a href="http://is4tomj.com/categories/strict-antecedent-basis">Strict Antecedent Basis</a> </li>
+    
       <li><a href="http://is4tomj.com/categories/drafting">Drafting</a> </li>
     
       <li><a href="http://is4tomj.com/categories/patent-application">Patent Application</a> </li>
+    
+      <li><a href="http://is4tomj.com/categories/claims">Claims</a> </li>
     
       <li><a href="http://is4tomj.com/categories/critical-skill">Critical Skill</a> </li>
     
