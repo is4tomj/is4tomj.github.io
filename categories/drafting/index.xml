@@ -58,7 +58,20 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
 doing the first thing with a second object;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;second-rule-of-sets-if-using-a-set-is-required-then-do-not-use-respectively-language&#34;&gt;Second rule of sets – if using a set is required, then do not use &amp;ldquo;respectively&amp;rdquo; language&lt;/h2&gt;
+&lt;h2 id=&#34;second-rule-of-sets-if-using-a-set-is-required-then-each-thing-in-the-set-should-have-the-same-properties-or-actions&#34;&gt;Second rule of sets – if using a set is required, then each thing in the set should have the same properties or actions&lt;/h2&gt;
+
+&lt;p&gt;Sets should be sets of common objects. Each object in a set should have the same properties or be part of the same steps. Do not create ambiguity by using clumsy language like, &amp;ldquo;ones of a set&amp;rdquo;—ew.&lt;/p&gt;
+
+&lt;p&gt;To refer to a subset of a set, instantiate a new noun phrase for the subset.  Although a subset can include all objects in a set, courts are usually made up of technically ignorant judges. So use the &lt;code&gt;one or more&lt;/code&gt; keyword phrase to instantiate a noun phrase to represent a subset of some or all of the objects in a set. The following is an example of using a set and a subset:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;receiving a set of things;
+determining one or more first things of the set of things has a first property;
+determining one or more second things of the set of things has a second property;
+for each thing in the one or more first things, doing a first action;
+for each thing in the one or more second things, doing a second action;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;avoid-respectively&#34;&gt;Avoid &amp;ldquo;respectively&amp;rdquo;&lt;/h2&gt;
 
 &lt;p&gt;A claim that uses a set often uses &amp;ldquo;respectively&amp;rdquo; haphazardly, and often incorrectly, throughout the claim. If two sets are needed, and each object in a first set is related to a corresponding object in a second set, then consider doing the following:&lt;/p&gt;
 
