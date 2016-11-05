@@ -14,8 +14,10 @@
 <link rel="stylesheet" href="http://is4tomj.com/css/poole.css">
 <link rel="stylesheet" href="http://is4tomj.com/css/syntax.css">
 <link rel="stylesheet" href="http://is4tomj.com/css/lanyon.css">
+<link rel="stylesheet" href="http://is4tomj.com/css/toc.css">
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="http://is4tomj.com/js/toc.js"></script>
 </head>
 
 
@@ -58,10 +60,14 @@
 </div>
 
     
+
+    <section id="toc">
+    </section>
+
     <div class="container content">
       <h1 class="post-title">Strict Antecedent Basis: Sets and Iteration</h1>
         <section id="main">
-          <h5 id="date">
+          <p id="date">
             Created: Oct 28, 2016; Modified: Nov 4, 2016.
           </h5>
 
@@ -79,9 +85,9 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
 <p>A &ldquo;set&rdquo; may comprise zero, one, or two or more elements.</p>
 </blockquote>
 
-<h2 id="the-first-rule-of-sets-do-not-use-sets">The first rule of sets — do not use sets</h2>
+<h2 id="first-rule-of-sets">First rule of sets</h2>
 
-<p>Sets often create confusion. Do not use a set unless a set is required.</p>
+<p>The first rule of sets is—<strong><em>do not use sets</em></strong>! Sets often create confusion. Do not use a set unless a set is required.</p>
 
 <p>In many cases, you can use one or two objects rather than a set. Referencing multiple references for multiple objects is usually clearer and broader than using sets. The following is an example:</p>
 
@@ -89,9 +95,12 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
 doing the first thing with a second object;
 </code></pre>
 
-<h2 id="second-rule-of-sets-if-using-a-set-is-required-then-each-thing-in-the-set-should-have-the-same-common-properties-or-be-part-of-the-same-steps">Second rule of sets – if using a set is required, then each thing in the set should have the same common properties or be part of the same steps</h2>
+<h2 id="second-rule-of-sets">Second rule of sets</h2>
 
-<p>Sets should be sets of common objects. Each object in a set should have common properties or be part of the same steps. Do not create ambiguity by using clumsy language like, &ldquo;ones of a set&rdquo;—ew.</p>
+<p>The second rule of sets: If using a set is required, then each thing in the set should have the same common properties or be part of the same steps
+Sets should be sets of common objects.</p>
+
+<p>Each object in a set should have common properties or be part of the same steps. Do not create ambiguity by using clumsy language like, &ldquo;ones of a set&rdquo;—<em>ew</em>.</p>
 
 <p>To refer to a subset of a set, instantiate a new noun phrase for the subset.  Although a subset can include all objects in a set, courts are usually made up of technically ignorant judges. So, use the <code>one or more</code> keyword phrase to instantiate a noun phrase to represent a subset of some or all of the objects in a set. The following is an example of using a set and a subset:</p>
 
@@ -102,7 +111,7 @@ for each thing in the one or more first things, doing a first action;
 for each thing in the one or more second things, doing a second action;
 </code></pre>
 
-<h2 id="avoid-using-the-word-respectively">Avoid using the word &ldquo;respectively&rdquo;</h2>
+<h3 id="banned-respectively">Banned: &ldquo;respectively&rdquo;</h3>
 
 <p>A claim that uses a set often uses &ldquo;respectively&rdquo; haphazardly, and often incorrectly. If two sets are needed, and each object in a first set is related to a corresponding object in a second set, then consider doing the following:</p>
 
@@ -116,9 +125,9 @@ for each thing in the one or more second things, doing a second action;
   performing a step with the particular object and the corresponding object.
 </code></pre>
 
-<h2 id="iterative-blocks">Iterative blocks</h2>
+<h2 id="iteration">Iteration</h2>
 
-<p>Iterating over a plurality of things leads to tricky claim language. When iterating over a set is required, perform the iteration with an iterative block. The following is an example of an iterative block that performs two actions on each object in a set:</p>
+<p>Iterating over a set leads to tricky claim language. When iterating over a set is required, perform the iteration with an iterative block. The following is an example of an iterative block that performs two actions on each object in a set:</p>
 
 <pre><code class="language-claim">for each thing among a plurality of things:
   doing a first action with the thing;
@@ -132,7 +141,7 @@ for each thing in the one or more second things, doing a second action;
 <pre><code class="language-claim">for each thing among a plurality of things, doing an action with the thing; 
 </code></pre>
 
-<h2 id="scope-and-iterative-blocks">Scope and iterative blocks</h2>
+<h3 id="scope">Scope</h3>
 
 <p>The keyword phrase <code>each</code>, unlike any of the other keyword phrases that instantiate a noun phrase, instantiates a noun phrase for an object only within the scope of the iterative block.  The following is an example that violates this rule.</p>
 

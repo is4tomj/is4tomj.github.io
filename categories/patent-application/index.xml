@@ -28,9 +28,9 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
 &lt;p&gt;A &amp;ldquo;set&amp;rdquo; may comprise zero, one, or two or more elements.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&#34;the-first-rule-of-sets-do-not-use-sets&#34;&gt;The first rule of sets — do not use sets&lt;/h2&gt;
+&lt;h2 id=&#34;first-rule-of-sets&#34;&gt;First rule of sets&lt;/h2&gt;
 
-&lt;p&gt;Sets often create confusion. Do not use a set unless a set is required.&lt;/p&gt;
+&lt;p&gt;The first rule of sets is—&lt;strong&gt;&lt;em&gt;do not use sets&lt;/em&gt;&lt;/strong&gt;! Sets often create confusion. Do not use a set unless a set is required.&lt;/p&gt;
 
 &lt;p&gt;In many cases, you can use one or two objects rather than a set. Referencing multiple references for multiple objects is usually clearer and broader than using sets. The following is an example:&lt;/p&gt;
 
@@ -38,9 +38,12 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
 doing the first thing with a second object;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;second-rule-of-sets-if-using-a-set-is-required-then-each-thing-in-the-set-should-have-the-same-common-properties-or-be-part-of-the-same-steps&#34;&gt;Second rule of sets – if using a set is required, then each thing in the set should have the same common properties or be part of the same steps&lt;/h2&gt;
+&lt;h2 id=&#34;second-rule-of-sets&#34;&gt;Second rule of sets&lt;/h2&gt;
 
-&lt;p&gt;Sets should be sets of common objects. Each object in a set should have common properties or be part of the same steps. Do not create ambiguity by using clumsy language like, &amp;ldquo;ones of a set&amp;rdquo;—ew.&lt;/p&gt;
+&lt;p&gt;The second rule of sets: If using a set is required, then each thing in the set should have the same common properties or be part of the same steps
+Sets should be sets of common objects.&lt;/p&gt;
+
+&lt;p&gt;Each object in a set should have common properties or be part of the same steps. Do not create ambiguity by using clumsy language like, &amp;ldquo;ones of a set&amp;rdquo;—&lt;em&gt;ew&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;To refer to a subset of a set, instantiate a new noun phrase for the subset.  Although a subset can include all objects in a set, courts are usually made up of technically ignorant judges. So, use the &lt;code&gt;one or more&lt;/code&gt; keyword phrase to instantiate a noun phrase to represent a subset of some or all of the objects in a set. The following is an example of using a set and a subset:&lt;/p&gt;
 
@@ -51,7 +54,7 @@ for each thing in the one or more first things, doing a first action;
 for each thing in the one or more second things, doing a second action;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;avoid-using-the-word-respectively&#34;&gt;Avoid using the word &amp;ldquo;respectively&amp;rdquo;&lt;/h2&gt;
+&lt;h3 id=&#34;banned-respectively&#34;&gt;Banned: &amp;ldquo;respectively&amp;rdquo;&lt;/h3&gt;
 
 &lt;p&gt;A claim that uses a set often uses &amp;ldquo;respectively&amp;rdquo; haphazardly, and often incorrectly. If two sets are needed, and each object in a first set is related to a corresponding object in a second set, then consider doing the following:&lt;/p&gt;
 
@@ -65,9 +68,9 @@ for each thing in the one or more second things, doing a second action;
   performing a step with the particular object and the corresponding object.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;iterative-blocks&#34;&gt;Iterative blocks&lt;/h2&gt;
+&lt;h2 id=&#34;iteration&#34;&gt;Iteration&lt;/h2&gt;
 
-&lt;p&gt;Iterating over a plurality of things leads to tricky claim language. When iterating over a set is required, perform the iteration with an iterative block. The following is an example of an iterative block that performs two actions on each object in a set:&lt;/p&gt;
+&lt;p&gt;Iterating over a set leads to tricky claim language. When iterating over a set is required, perform the iteration with an iterative block. The following is an example of an iterative block that performs two actions on each object in a set:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;for each thing among a plurality of things:
   doing a first action with the thing;
@@ -81,7 +84,7 @@ for each thing in the one or more second things, doing a second action;
 &lt;pre&gt;&lt;code class=&#34;language-claim&#34;&gt;for each thing among a plurality of things, doing an action with the thing; 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;scope-and-iterative-blocks&#34;&gt;Scope and iterative blocks&lt;/h2&gt;
+&lt;h3 id=&#34;scope&#34;&gt;Scope&lt;/h3&gt;
 
 &lt;p&gt;The keyword phrase &lt;code&gt;each&lt;/code&gt;, unlike any of the other keyword phrases that instantiate a noun phrase, instantiates a noun phrase for an object only within the scope of the iterative block.  The following is an example that violates this rule.&lt;/p&gt;
 
@@ -161,11 +164,11 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
 I am updating, or adding to, this page. Please let me know if you have suggestions or fixes. You can let me know on &lt;a href=&#34;http://twitter.com/is4tomj&#34; target=&#34;_blank&#34;&gt;Twitter (@is4tomj)&lt;/a&gt; or make a pull request on &lt;a href=&#34;https://github.com/is4tomj/is4tomj-hugo&#34; target=&#34;_blank&#34;&gt;https://github.com/is4tomj/is4tomj-hugo&lt;/a&gt;.
 &lt;hr/&gt;
 
-&lt;h2 id=&#34;noun-phrases-the-building-blocks-of-clear-claim-language&#34;&gt;Noun phrases &amp;ndash; the building blocks of clear claim language&lt;/h2&gt;
+&lt;h2 id=&#34;noun-phrases&#34;&gt;Noun phrases&lt;/h2&gt;
 
-&lt;p&gt;A noun phrase is a word or group of words that functions in a sentence as subject, object, or prepositional object. A noun phrase in a claim should be clearly defined so that future references to the noun phrase are easily recognized.&lt;/p&gt;
+&lt;p&gt;Noun phrases are the building blocks of clear claim language. A noun phrase is a word or group of words that functions in a sentence as subject, object, or prepositional object. A noun phrase in a claim should be clearly defined so that future references to the noun phrase are easily recognized.&lt;/p&gt;
 
-&lt;h3 id=&#34;instantiating-a-noun-phrase&#34;&gt;Instantiating a noun phrase&lt;/h3&gt;
+&lt;h2 id=&#34;instantiation&#34;&gt;Instantiation&lt;/h2&gt;
 
 &lt;p&gt;A noun phrase should be instantiated only once in a claim using one keyword phrase among a set of instantiating keyword phrases:&lt;/p&gt;
 
@@ -192,7 +195,7 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
 
 &lt;p&gt;The &lt;code&gt;each&lt;/code&gt; instantiating keyword phrase is a special keyword phrase that is discussed in &lt;a href=&#34;http://is4tomj.com/posts/sab-sets-and-iteration&#34;&gt;Sets and Iteration&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;referring-to-an-instantiated-noun-phrase&#34;&gt;Referring to an instantiated noun phrase&lt;/h3&gt;
+&lt;h2 id=&#34;referencing&#34;&gt;Referencing&lt;/h2&gt;
 
 &lt;p&gt;Use the &lt;code&gt;the&lt;/code&gt; keyword phrase to reference a noun phrase exactly as instantiated. The following are examples of referencing an instantiated noun phrase:&lt;/p&gt;
 
@@ -209,7 +212,7 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
 
 &lt;p&gt;A noun phrase should not be referenced using a modifier, such as an adjective.  For example, if a claim includes &lt;code&gt;receiving a thing&lt;/code&gt;, then &lt;code&gt;the thing&lt;/code&gt; should &lt;strong&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/strong&gt; be referenced as &lt;code&gt;the received thing&lt;/code&gt; in the claim.&lt;/p&gt;
 
-&lt;h3 id=&#34;a-noun-phrase-references-an-immutable-object&#34;&gt;A noun phrase references an immutable object&lt;/h3&gt;
+&lt;h2 id=&#34;immutable-objects&#34;&gt;Immutable objects&lt;/h2&gt;
 
 &lt;p&gt;A noun phrase references an object that is immutable. If the object is modified, then the object is a new object.  Accordingly, a new noun phrase should be instantiated to represent the new object.  The following is an example of assigning a new noun phrase to a modified object:&lt;/p&gt;
 
@@ -236,7 +239,7 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
    sending the second thing to a client computer.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;do-not-instantiate-a-new-noun-phrase-for-further-characterization-clarification-or-description-of-an-underlying-component&#34;&gt;Do not instantiate a new noun phrase for further characterization, clarification, or description of an underlying component.&lt;/h3&gt;
+&lt;h3 id=&#34;classification-distinction&#34;&gt;Classification distinction&lt;/h3&gt;
 
 &lt;p&gt;Although a noun phrase represents an immutable object, a new noun phrase should not be instantiated when an object is merely further characterized, clarified, or described.  The following is an example of a noun phrase that represents an object that is further described after the noun phrase was instantiated.&lt;/p&gt;
 
@@ -248,22 +251,26 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
     </item>
     
     <item>
-      <title>Properties of a Well-Written Draft Patent Application</title>
+      <title>A Well-Written Draft Patent Application</title>
       <link>http://is4tomj.com/posts/0003-drafting-patent-applications/</link>
       <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>http://is4tomj.com/posts/0003-drafting-patent-applications/</guid>
       <description>
 
-&lt;h2 id=&#34;qualities-of-a-well-written-draft-patent-application&#34;&gt;Qualities of a well-written draft patent application&lt;/h2&gt;
+&lt;h2 id=&#34;qualities&#34;&gt;Qualities&lt;/h2&gt;
 
 &lt;p&gt;A draft patent application should be easy for an inventor (and everyone else) to read.  A well-written specification includes lots of headings and subheadings, is written in active voice as much as possible, avoids pronouns, avoids jargon, uses terms consistently, fully supports the claims.&lt;/p&gt;
 
-&lt;h2 id=&#34;background-section-and-first-substantive-section-after-the-background&#34;&gt;Background section and first substantive section after the background&lt;/h2&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 
-&lt;p&gt;The background of a draft patent application should describe the problem that the invention solves. The first substantive section after the background, should summarize the solution.  Headings should then allow a reader to jump to specific sections that discuss specific components or steps.  Adding a table of contents before the General Overview section is strongly encouraged.&lt;/p&gt;
+&lt;p&gt;The background of a draft patent application should describe the problem that the invention solves.&lt;/p&gt;
 
-&lt;h2 id=&#34;boilerplate-language&#34;&gt;Boilerplate language&lt;/h2&gt;
+&lt;h2 id=&#34;general-overview&#34;&gt;General overview&lt;/h2&gt;
+
+&lt;p&gt;The first substantive section after the background, should summarize the solution.  Headings should then allow a reader to jump to specific sections that discuss specific components or steps.  Adding a table of contents before the General Overview section is strongly encouraged.&lt;/p&gt;
+
+&lt;h2 id=&#34;boilerplate&#34;&gt;Boilerplate&lt;/h2&gt;
 
 &lt;p&gt;Boilerplate language about basic computer components or topologies should be grouped together. The meat of the draft patent application should be highlighted so that the inventors know what to focus on while reviewing.&lt;/p&gt;
 
@@ -284,7 +291,7 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
 
 &lt;h2 id=&#34;claims&#34;&gt;Claims&lt;/h2&gt;
 
-&lt;p&gt;Claims should adhere to Strict Antecedent Basis Rules. For example, “the &amp;lt;something&amp;gt;” should only occur after “a &amp;lt;something&amp;gt;”.  I will have a separate post that defines Strict Antecedent Basis Rules with several examples.&lt;/p&gt;
+&lt;p&gt;Claims should adhere to &lt;a href=&#34;posts/sab-intro&#34;&gt;Strict Antecedent Basis&lt;/a&gt; rules.&lt;/p&gt;
 </description>
     </item>
     
@@ -300,7 +307,7 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
 I am updating, or adding to, this page. Please let me know if you have suggestions or fixes. You can let me know on &lt;a href=&#34;http://twitter.com/is4tomj&#34; target=&#34;_blank&#34;&gt;Twitter (@is4tomj)&lt;/a&gt; or make a pull request on &lt;a href=&#34;https://github.com/is4tomj/is4tomj-hugo&#34; target=&#34;_blank&#34;&gt;https://github.com/is4tomj/is4tomj-hugo&lt;/a&gt;.
 &lt;hr/&gt;
 
-&lt;h2 id=&#34;strict-antecedent-basis&#34;&gt;Strict Antecedent Basis&lt;/h2&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;It is of utmost importance that patents issue with definite claims that clearly and precisely inform persons skilled in the art of the boundaries of protected subject matter.&amp;rdquo;&lt;/p&gt;
@@ -313,6 +320,8 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
 &lt;p&gt;Definite claims do not mean narrow claims, and indefinite or ambiguous claims do not mean broad claims. A good patent practitioner drafts claims that are both definite and broad.&lt;/p&gt;
 
 &lt;p&gt;A court can just as easily construe an ambiguous term narrowly instead of broadly. I would prefer to stand confidently in court knowing that an infringer is clearly infringing my patent rather than hoping that I fall ass-backwards into good fortune with a court that construes my claims broadly enough for me stop, or collect a royalty from, the infringer. Furthermore, requiring a court to construe ambiguous claims can increase the cost of litigation or worse &amp;ndash; invalidate my patent.&lt;/p&gt;
+
+&lt;h2 id=&#34;posts&#34;&gt;Posts&lt;/h2&gt;
 
 &lt;p&gt;The following posts define the Strict Antecedent Basis rules and provide numerous examples. I will update posts and add new posts over time.&lt;/p&gt;
 
