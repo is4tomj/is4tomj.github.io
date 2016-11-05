@@ -11,10 +11,10 @@
 }
 
 #toc .toc-H2 a {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 #toc .toc-H3 a, #toc .toc-H4 a {
-  font-size: 0.7em;
+  font-size: 0.8em;
   color: #666;
 }
