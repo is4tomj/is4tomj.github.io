@@ -6,8 +6,24 @@
     <description>Recent content on is4tomj</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Tom Johnson</copyright>
-    <lastBuildDate>Tue, 01 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://is4tomj.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Patent Drafting: DNUOPOHTRAITCOS</title>
+      <link>http://is4tomj.com/posts/acronyms</link>
+      <pubDate>Tue, 15 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://is4tomj.com/posts/acronyms</guid>
+      <description>
+
+&lt;h2 id=&#34;dnuopohtraitcos-do-not-use-obscure-proprietary-or-hard-to-remember-acronyms-in-the-claims-or-specification&#34;&gt;DNUOPOHTRAITCOS: Do Not Use Obscure, Proprietary, Or Hard To Remember Acronyms In The Claims Or Specification&lt;/h2&gt;
+
+&lt;p&gt;Do not use an acronym unless the acronym is more common than the underlying words. The same goes for an abbreviation.&lt;/p&gt;
+
+&lt;p&gt;HTTP, RAM, API are acceptable acronyms. Each acronym is acceptable because the acronym is more widely known and used than the words that the acronym represents.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Patent Drafting: Detailed and Broad, Never Vague</title>
@@ -283,9 +299,58 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
 I am updating, or adding to, this page. Please let me know if you have suggestions or fixes. You can let me know on &lt;a href=&#34;http://twitter.com/is4tomj&#34; target=&#34;_blank&#34;&gt;Twitter (@is4tomj)&lt;/a&gt; or make a pull request on &lt;a href=&#34;https://github.com/is4tomj/is4tomj-hugo&#34; target=&#34;_blank&#34;&gt;https://github.com/is4tomj/is4tomj-hugo&lt;/a&gt;.
 &lt;hr/&gt;
 
-&lt;h2 id=&#34;qualities&#34;&gt;Qualities&lt;/h2&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;A draft patent application should be easy for an inventor (and everyone else) to read.  A well-written specification includes lots of headings and subheadings, is written in active voice as much as possible, avoids pronouns, avoids jargon, uses terms consistently, fully supports the claims.&lt;/p&gt;
+&lt;p&gt;A patent application should be, in order of priority:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Technically correct,&lt;/li&gt;
+&lt;li&gt;Drafted according to legal requirements,&lt;/li&gt;
+&lt;li&gt;Easy for the inventors to read,&lt;/li&gt;
+&lt;li&gt;Easy for potential judges and jurors to read.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Adhering the rules below will help you to prepare an application that has the above properties.&lt;/p&gt;
+
+&lt;h2 id=&#34;do-s&#34;&gt;Do&amp;rsquo;s&lt;/h2&gt;
+
+&lt;p&gt;Please do the following in every patent application:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Include lots of headings and subheadings,&lt;/li&gt;
+&lt;li&gt;Write in active voice as much as possible,&lt;/li&gt;
+&lt;li&gt;Avoid pronouns and jargon,&lt;/li&gt;
+&lt;li&gt;Use terms consistently throughout the specification, claims, and drawings,&lt;/li&gt;
+&lt;li&gt;Discuss, in the specification, all of the features in the claims.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;dont-s&#34;&gt;Dont&amp;rsquo;s:&lt;/h2&gt;
+
+&lt;p&gt;Please do not use any of the following in a draft patent application:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;e.g.&amp;rdquo;,&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;i.e.&amp;rdquo;,&lt;/li&gt;
+&lt;li&gt;Pronouns,&lt;/li&gt;
+&lt;li&gt;Acronyms,&lt;/li&gt;
+&lt;li&gt;Patent profanity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are a few exceptions for acronyms: &lt;a href=&#34;posts/acronyms&#34;&gt;DNUOPOHTRAITCOS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Examples of Patent Profanity:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Critical,&lt;/li&gt;
+&lt;li&gt;Necessary,&lt;/li&gt;
+&lt;li&gt;Essential,&lt;/li&gt;
+&lt;li&gt;Key,&lt;/li&gt;
+&lt;li&gt;Every,&lt;/li&gt;
+&lt;li&gt;Must,&lt;/li&gt;
+&lt;li&gt;Never,&lt;/li&gt;
+&lt;li&gt;Only, and&lt;/li&gt;
+&lt;li&gt;Absolutely.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 
@@ -299,20 +364,13 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
 
 &lt;p&gt;Boilerplate language about basic computer components or topologies should be grouped together. The meat of the draft patent application should be highlighted so that the inventors know what to focus on while reviewing.&lt;/p&gt;
 
-&lt;h2 id=&#34;dont-s&#34;&gt;Dont&amp;rsquo;s:&lt;/h2&gt;
-
-&lt;p&gt;Please do not use any of the following in a draft patent application:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;ldquo;e.g.&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;i.e.&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;Pronouns,&lt;/li&gt;
-&lt;li&gt;Patent profanity.&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&#34;summary-section&#34;&gt;Summary Section&lt;/h2&gt;
 
 &lt;p&gt;Please do not include a Summary section that states anything other than the following: “The appended claims may serve as a summary of the invention.”&lt;/p&gt;
+
+&lt;p&gt;Watch Out for &amp;ldquo;The Summary&amp;rdquo; and &amp;ldquo;The Abstract.&amp;rdquo; All parts of the specification should be carefully drafted, because any part of it can be used in the claim construction. For example, the Federal Circuit explicitly relied on statements in the &amp;ldquo;Summary of the Invention&amp;rdquo; and the &amp;ldquo;Abstract&amp;rdquo; for its claim construction.&lt;/p&gt;
+
+&lt;p&gt;In C.R. Bard, Inc. v. U.S. Surgical Corp.,9 when drafting the specification of the patent at issue, Bard described an inventive surgical plug as having a pleated surface, even though the claims did not require the pleated-surface limitation. The Court held that statements made in the &amp;ldquo;Summary of the Invention&amp;rdquo; and &amp;ldquo;Abstract&amp;rdquo; were descriptions of the invention as a whole and read the pleated-surface limitation into the claim term &amp;ldquo;plug.&amp;rdquo; Needless to say, Bard lost its claim for infringement in the litigation.&lt;/p&gt;
 
 &lt;h2 id=&#34;claims&#34;&gt;Claims&lt;/h2&gt;
 
@@ -373,6 +431,8 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
   
     
       &lt;li&gt;&lt;a href=&#34;http://is4tomj.com/posts/sab-sets-and-iteration&#34;&gt;Strict Antecedent Basis: Sets and Iteration&lt;/a&gt;&lt;/li&gt;
+    
+  
     
   
     
