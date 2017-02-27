@@ -1,0 +1,183 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <base href="http://is4tomj.com">
+    <title> Create Background Jobs for app based on Create-React-App </title>
+    <link rel="canonical" href="http://is4tomj.com/posts/0008-create-react-app-background-job/">
+    
+
+<link rel="stylesheet" href="http://is4tomj.com/css/poole.css">
+<link rel="stylesheet" href="http://is4tomj.com/css/syntax.css">
+<link rel="stylesheet" href="http://is4tomj.com/css/lanyon.css">
+<link rel="stylesheet" href="http://is4tomj.com/css/toc.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="http://is4tomj.com/js/toc.js"></script>
+</head>
+
+
+<body class="theme-base-08">
+  
+
+
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="http://is4tomj.com/">Home</a>
+    <a class="sidebar-nav-item" href="http://is4tomj.com/posts">Blog</a>
+    <a class="sidebar-nav-item" href="http://twitter.com/is4tomj">Twitter</a>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2016 Tom Johnson. Powered by <a href="http://hugo.spf13.com">Hugo</a>. Design adapted from <a href="http://lanyon.getpoole.com">Lanyon</a>.
+    </p>
+  </div>
+</div>
+
+
+  
+  <div class="wrap">
+    <div class="masthead">
+  <div class="container">
+    <h3 class="masthead-title">
+      <a href="http://is4tomj.com/" title="Home">Home</a>
+      |
+      <a href="http://twitter.com/is4tomj" title="Twitter" target="_blank">Contact</a>
+      |
+      
+      <a href="http://is4tomj.com/posts/sab-intro">Strict Antecedent Basis</a>
+    </h3>
+  </div>
+</div>
+
+    
+
+    <section id="toc">
+    </section>
+
+    <div class="container content">
+      <h1 class="post-title">Create Background Jobs for app based on Create-React-App</h1>
+        <section id="main">
+          <p id="date">
+            Created: Feb 27, 2017.
+          </h5>
+
+          
+
+<p>I maintain a single page create-react-app app. I needed to create a daily background job that uses some of the models in my create-react-app.  Using the models was difficult because my models use Babel, which usually React loads correctly. But, React does not load Babel for background processes.</p>
+
+<p>The following are steps to create a background process:</p>
+
+<h2 id="1-install-babel-in-the-project">1.  Install Babel in the Project:</h2>
+
+<pre><code>npm install --save babel-cli babel-plugin-transform-class-properties babel-preset-es2015 babel-preset-react babel-register
+</code></pre>
+
+<p>The following are the current versions of these Babel libs at the time of writing:</p>
+
+<pre><code>  &quot;babel-cli&quot;: &quot;^6.23.0&quot;,
+  &quot;babel-plugin-transform-class-properties&quot;: &quot;^6.23.0&quot;,
+  &quot;babel-preset-es2015&quot;: &quot;^6.22.0&quot;,
+  &quot;babel-preset-react&quot;: &quot;^6.23.0&quot;,
+  &quot;babel-register&quot;: &quot;^6.23.0&quot;,
+</code></pre>
+
+<h2 id="2-store-the-following-in-a-babelrc-in-the-create-react-app-root-project-folder">2.  Store the following in a .babelrc in the create-react-app root project folder:</h2>
+
+<pre><code>{
+  &quot;presets&quot;: [
+    &quot;react&quot;,
+    &quot;es2015&quot;
+  ],
+  &quot;plugins&quot;: [
+    &quot;transform-class-properties&quot;
+  ]
+}
+</code></pre>
+
+<h2 id="3-at-the-top-of-the-script-file-of-the-background-process-after-usr-bin-env-node-add-the-following">3. At the top of the script file of the background process, after <code>#!/usr/bin/env node</code>, add the following:</h2>
+
+<pre><code>require(&quot;babel-register&quot;);
+</code></pre>
+
+<p>The require is not assigned to a variable, because we merely want the side effects.</p>
+
+<h2 id="4-require-import-your-app-code-into-your-background-process-script">4. Require/Import your app code into your background process script:</h2>
+
+<pre><code>var Car = require(&quot;../Models/Car&quot;).default;
+</code></pre>
+
+        </section>
+    </div>
+  </div>
+
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  
+
+<div class="container">
+  <hr />
+  <hr />
+  
+
+  
+</div>
+
+  <br />
+  
+<div class="container">
+  <ul class="catlist">
+    <li><em>Categories: </em></li>
+    
+      <li><a href="http://is4tomj.com/categories/react">React</a> </li>
+    
+      <li><a href="http://is4tomj.com/categories/background-process">Background process</a> </li>
+    
+      <li><a href="http://is4tomj.com/categories/node">Node</a> </li>
+    
+  </ul>
+</div>
+
+
+
+  
+  
+
+<div class="container content">
+<footer>
+  <div>
+    <p class="right credit">
+      Copyright &copy; 2016 Tom Johnson.
+    </p>
+  </div>
+</footer>
+</div>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86820665-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body>
+</html>
+
+
+
+

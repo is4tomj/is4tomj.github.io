@@ -6,8 +6,61 @@
     <description>Recent content in Posts-rsses on is4tomj</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Tom Johnson</copyright>
-    <lastBuildDate>Tue, 15 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://is4tomj.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Create Background Jobs for app based on Create-React-App</title>
+      <link>http://is4tomj.com/posts/0008-create-react-app-background-job/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://is4tomj.com/posts/0008-create-react-app-background-job/</guid>
+      <description>
+
+&lt;p&gt;I maintain a single page create-react-app app. I needed to create a daily background job that uses some of the models in my create-react-app.  Using the models was difficult because my models use Babel, which usually React loads correctly. But, React does not load Babel for background processes.&lt;/p&gt;
+
+&lt;p&gt;The following are steps to create a background process:&lt;/p&gt;
+
+&lt;h2 id=&#34;1-install-babel-in-the-project&#34;&gt;1.  Install Babel in the Project:&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install --save babel-cli babel-plugin-transform-class-properties babel-preset-es2015 babel-preset-react babel-register
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The following are the current versions of these Babel libs at the time of writing:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  &amp;quot;babel-cli&amp;quot;: &amp;quot;^6.23.0&amp;quot;,
+  &amp;quot;babel-plugin-transform-class-properties&amp;quot;: &amp;quot;^6.23.0&amp;quot;,
+  &amp;quot;babel-preset-es2015&amp;quot;: &amp;quot;^6.22.0&amp;quot;,
+  &amp;quot;babel-preset-react&amp;quot;: &amp;quot;^6.23.0&amp;quot;,
+  &amp;quot;babel-register&amp;quot;: &amp;quot;^6.23.0&amp;quot;,
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;2-store-the-following-in-a-babelrc-in-the-create-react-app-root-project-folder&#34;&gt;2.  Store the following in a .babelrc in the create-react-app root project folder:&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &amp;quot;presets&amp;quot;: [
+    &amp;quot;react&amp;quot;,
+    &amp;quot;es2015&amp;quot;
+  ],
+  &amp;quot;plugins&amp;quot;: [
+    &amp;quot;transform-class-properties&amp;quot;
+  ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;3-at-the-top-of-the-script-file-of-the-background-process-after-usr-bin-env-node-add-the-following&#34;&gt;3. At the top of the script file of the background process, after &lt;code&gt;#!/usr/bin/env node&lt;/code&gt;, add the following:&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;require(&amp;quot;babel-register&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The require is not assigned to a variable, because we merely want the side effects.&lt;/p&gt;
+
+&lt;h2 id=&#34;4-require-import-your-app-code-into-your-background-process-script&#34;&gt;4. Require/Import your app code into your background process script:&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;var Car = require(&amp;quot;../Models/Car&amp;quot;).default;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Patent Drafting: DNUOPOHTRAITCOS</title>
@@ -429,6 +482,8 @@ I am updating, or adding to, this page. Please let me know if you have suggestio
   
     
       &lt;li&gt;&lt;a href=&#34;http://is4tomj.com/posts/sab-sets-and-iteration&#34;&gt;Strict Antecedent Basis: Sets and Iteration&lt;/a&gt;&lt;/li&gt;
+    
+  
     
   
     
